@@ -10,7 +10,7 @@ NOTE: yabai requires System Integrity Protection to be disabled to work properly
 # Remove previous links
 rm -f "${HOME}"/.{yabai,skhd}rc
 
-Install configs
+# Install configs
 git clone https://github.com/rhalff/chunkwm-yabai-config.git "${HOME}"/.config/yabai
 ln -s "${HOME}/.config/yabai/yabai/yabairc" "${HOME}/.yabairc"
 ln -s "${HOME}/.config/yabai/yabai/skhdrc" "${HOME}/.skhdrc"
