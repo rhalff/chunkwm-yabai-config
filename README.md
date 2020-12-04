@@ -1,5 +1,5 @@
-# chunkwm, yabai and skhd configs
-My personal chunkwm, yabai and skhd configs
+# yabai and skhd configs
+My personal yabai and skhd configs
 
 See my [dotfiles](https://gitlab.com/julian-heng/dotfiles.git) repo for my other configs
 
@@ -67,7 +67,6 @@ $ ln -s "${HOME}/.config/yabai/yabai/skhdrc" "${HOME}/.skhdrc"
 | Insert down                  | <kbd>shift</kbd> + <kbd>lctrl</kbd> + <kbd>alt</kbd> + <kbd>j</kbd> |
 | Insert up                    | <kbd>shift</kbd> + <kbd>lctrl</kbd> + <kbd>alt</kbd> + <kbd>k</kbd> |
 | Insert right                 | <kbd>shift</kbd> + <kbd>lctrl</kbd> + <kbd>alt</kbd> + <kbd>l</kbd> |
-| Cancel insert (chunkwm only) | <kbd>shift</kbd> + <kbd>lctrl</kbd> + <kbd>alt</kbd> + <kbd>x</kbd> |
 
 #### Misc
 
@@ -75,7 +74,6 @@ $ ln -s "${HOME}/.config/yabai/yabai/skhdrc" "${HOME}/.skhdrc"
 |-----------------|---------------------------------------------------------------------|
 | Toggle float    | <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>space</kbd>                |
 | Toggle gaps     | <kbd>lctrl</kbd> + <kbd>alt</kbd> + <kbd>g</kbd>                    |
-| Restart chunkwm | <kbd>lctrl</kbd> + <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>r</kbd> |
 
 #### Show information
 ##### Description
