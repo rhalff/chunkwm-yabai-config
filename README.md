@@ -8,12 +8,12 @@ NOTE: yabai requires System Integrity Protection to be disabled to work properly
 ## Installing
 ```sh
 # Remove previous links
-$ rm -f "${HOME}"/.{yabai,skhd}rc
+rm -f "${HOME}"/.{yabai,skhd}rc
 
-# Install configs
-$ git clone https://github.com/rhalff/chunkwm-yabai-config.git "${HOME}"/.config/yabai
-$ ln -s "${HOME}/.config/yabai/yabai/yabairc" "${HOME}/.yabairc"
-$ ln -s "${HOME}/.config/yabai/yabai/skhdrc" "${HOME}/.skhdrc"
+Install configs
+git clone https://github.com/rhalff/chunkwm-yabai-config.git "${HOME}"/.config/yabai
+ln -s "${HOME}/.config/yabai/yabai/yabairc" "${HOME}/.yabairc"
+ln -s "${HOME}/.config/yabai/yabai/skhdrc" "${HOME}/.skhdrc"
 ```
 
 ## Keyboard shortcuts
