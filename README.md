@@ -5,18 +5,7 @@ See my [dotfiles](https://gitlab.com/julian-heng/dotfiles.git) repo for my other
 
 NOTE: yabai requires System Integrity Protection to be disabled to work properly. See [here](https://github.com/koekeishiya/yabai/wiki/Disabling-System-Integrity-Protection) for more information.
 
-## Installing for chunkwm
-```sh
-# Remove previous links
-$ rm -f "${HOME}"/.{chunkwm,skhd}rc
-
-# Install configs
-$ git clone https://github.com/rhalff/chunkwm-yabai-config.git "${HOME}"/.config/chunkwm
-$ ln -s "${HOME}/.config/chunkwm/chunkwm/chunkwmrc" "${HOME}/.chunkwmrc"
-$ ln -s "${HOME}/.config/chunkwm/chunkwm/skhdrc" "${HOME}/.skhdrc"
-```
-
-## Installing for yabai
+## Installing
 ```sh
 # Remove previous links
 $ rm -f "${HOME}"/.{yabai,skhd}rc
@@ -28,7 +17,6 @@ $ ln -s "${HOME}/.config/yabai/yabai/skhdrc" "${HOME}/.skhdrc"
 ```
 
 ## Keyboard shortcuts
-### Chunkwm / Yabai
 #### Changing focus
 <kbd>alt</kbd> + <kbd>hjkl</kbd>
 
@@ -89,7 +77,6 @@ $ ln -s "${HOME}/.config/yabai/yabai/skhdrc" "${HOME}/.skhdrc"
 | Toggle gaps     | <kbd>lctrl</kbd> + <kbd>alt</kbd> + <kbd>g</kbd>                    |
 | Restart chunkwm | <kbd>lctrl</kbd> + <kbd>shift</kbd> + <kbd>alt</kbd> + <kbd>r</kbd> |
 
-### Non-chunkwm
 #### Show information
 ##### Description
 Uses `osascript` to show information like CPU, memory, battery, etc. The CPU script requires [osx-cpu-temp](https://github.com/lavoiesl/osx-cpu-temp) installed. The song script supports iTunes and cmus.
